@@ -1,0 +1,127 @@
+body {
+   font-family: 'Open Sans', sans-serif;
+   background-color: #f8f8f8;
+   margin:0px;
+   padding:0px;
+}
+
+textarea {
+   padding: 10px;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 16px;
+   border: 1px solid #cccccc;
+   border-radius: 10px;
+   margin-top:10px;
+   width:500px;
+   min-width:200px;
+   min-height:50px;
+   height:100px;
+}
+
+select {
+   padding: 5px;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 16px;
+   font-weight:bold;
+   border: none;
+   margin: 0px 20px 0px 20px;
+}
+
+input.submit, button {
+   background-color: #007bff;
+   color: #ffffff;
+   border: none;
+   padding: 10px 20px 10px 20px;
+   margin: 10px;
+   font-size: 16px;
+   border-radius: 10px;
+   cursor: pointer;
+   transition: background-colour 0.3s ease;
+}
+
+input.submit:hover, button:hover {
+   background-color: #0069d9;
+}
+
+p.query {
+   color:#000080;
+   font-style:italic;
+   margin:20px;   
+}
+
+div.heading {
+   padding:10px;
+   margin:0px;
+   background-color:#000060;
+   color:gold;
+   font-weight:bold;
+}
+
+div.data {
+   width:750px;
+   padding:0px;
+   margin:20px 10px 20px 10px;
+   border:none;
+   border-radius: 10px;
+   background-color:silver;
+   color:blue;
+   font-weight:bold;
+}
+
+div.source {
+   padding:10px;
+   margin:0px;
+}
+div.answer {
+   padding:20px 10px 20px 10px;
+   margin:0px;
+   background-color:#ffffff;
+   border:1px solid silver;
+   font-weight:normal;
+   font-style:italic;
+   color:black;
+}
+div.score {
+   padding:10px;
+   margin:0px;
+   text-align:right;
+}
+div.a {
+   color:#0000ff;
+}
+div.a:hover {
+   color:#800080;
+}
+
+table {
+   padding:10px;
+   margin:20px 10px 20px 10px;
+   background-color:#000060;
+   border-radius:10px;
+}
+
+table th {
+   padding:10px;
+   text-align:center;
+   font-size:18px;
+   color:gold;
+}
+
+table td {
+   padding:10px;
+   text-align:center;
+   font-size:18px;
+   color:#000060;
+   background-color:#ffffff;
+   font-weight:bold;
+}
+
+p.highlight {
+   font-weight:bold;
+   margin:10px;
+}
+
+div.graph {
+	width:750px;
+	margin:20px;
+}
